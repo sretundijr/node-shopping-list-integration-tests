@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: MQTG4wQCIYkmpG1FFvZrjZ4zQqxKmHJ13XVPBZ295AO8+ofU2PW0qu6/OAZixiKeyaROxJ/vHgFkLzT52dH4dEyXzj/F19Vwqclkp88dqjJ71pzgOMdbtgVKzFkMxvkdgGOJc0wy3P4v1yXhLFzGtXJQ3jvgzAZhqL974U5B9n7YYXxVlDEcWabYXlP8XwzdEdvSB8XEw42YSxEgPG3EmuF5WptuqC2NrEB4B7XsjceLjJOrAZ1bsfTkxqj6BvEU3Uly8bfAKZuU1YEU0LKUqYDB6pyWlcE+rvsKORiH7DIxTL+eRMEqIOZol2nnNuDHDCiKCUgpeCwFH5hKFsr/6uliraaWfrukebqPPpQm50YUzGQCSqdgIE63PZCjFZzeX1WtbI//vYy82l4HhUT7JRD4radhc3iheXlhspzxZwMANktSKmL78at92W6N+Bth4CiHgh3X52RZ/yEFLlVKXQJUQNM0p1sdoIgPSzyjJv9Gi1MfW8Z1IJyEFXEHbTfxYE032/n5kGJ8hgDJco0R+wu+Gbex43DDw+1B4u3luPPW92EiMdTvJYNXXKSBJLnrZCV9u5kXvP6fXw0KaqI6H3cLBsPWH9lMTU+b0xDMv6lCgHH2/ugpfu+/NaAaMtf/qhFFke1yQ4e/+RZnmHwD1mXEAjJY9HVjG0Xwi3bG1a0=
+  app: ancient-brushlands-22621
+  on:
+    repo: sretundijr/node-shopping-list-integration-tests
